@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+.hidden {
+  display: none;
+}
+
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+header #weather {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+}
+
+.front-things {
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clock {
+  font-size: 140px;
+  font-weight: 500;
+  color: white;
+}
+
+#today-date {
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+#greeting {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+}
+
+.todo-box {
+  display: flex;
+  align-items: center;
+}
+
+.todo-box:hover {
+  transform: scale(1.2);
+}
+
+.todo-btn {
+  font-size: 25px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.todo-box span {
+  font-size: 20px;
+  color: white;
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0px;
+  color: white;
+}
+#todo-list li {
+  margin: 10px 0px;
+}
+
+.modal_wrap {
+  display: none;
+  width: 600px;
+  height: 380px;
+  position: absolute;
+  border: none;
+  top: 100%;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.todo-form-box {
+  display: flex;
+  align-items: center;
+}
+
+.modal_wrap {
+  padding: 20px;
+}
+
+#todo-form input {
+  width: 550px;
+  height: 35px;
+  font-size: 17px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-form input::placeholder {
+  color: white;
+}
+
+.modal-close_btn i {
+  font-size: 30px;
+  color: white;
+}
+
+#login-form {
+  margin: 20px;
+}
+
+#login-form input {
+  background: none;
+  border: none;
+  width: 430px;
+  border-bottom: 2px solid white;
+  font-size: 30px;
+  color: white;
+}
+#login-form input:focus {
+  outline: none;
+}
+
+#login-form input::placeholder {
+  color: white;
+  font-weight: 400;
+  font-size: 23px;
+  text-indent: 35px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+}
+
+footer #quote {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+}
